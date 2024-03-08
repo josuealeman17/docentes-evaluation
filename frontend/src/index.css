@@ -1,0 +1,167 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  gap: 20px; /* Espacio entre los formularios */
+}
+
+.list {
+  margin-top: 20px; /* Espacio superior entre los formularios y la lista */
+}
+
+
+.course-form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.course-form-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.course-form-container .form-group {
+  margin-bottom: 15px;
+}
+
+.course-form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.course-form-container input[type='text'],
+.course-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.course-form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.course-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.topic-form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.topic-form-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.topic-form-container .form-group {
+  margin-bottom: 15px;
+}
+
+.topic-form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.topic-form-container input[type='text'],
+.topic-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.topic-form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.topic-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.course-topic-list-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.course-list,
+.topic-list {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+
+.course-list h2,
+.topic-list h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
